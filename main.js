@@ -17,6 +17,7 @@ for (let i = 0; i <= SQUARES; i++) {
   square.classList.add('square');
 
   square.addEventListener('mouseover', () => setColor(square));
+  square.addEventListener('touchstart', () => setColor(square));
 
   // square.addEventListener('mouseout', () => removeColor(square)); --> Auto remove colors
 
